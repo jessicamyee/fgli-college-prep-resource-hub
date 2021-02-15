@@ -9,7 +9,23 @@ Visitors will be able to select resources based on specific categories. They wil
 
 ## Wireframes
 
-PENDING -- Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+![Homepage-Web](https://github.com/jessicamyee/fgli-college-prep-resource-hub/blob/main/assets/homepage-web.png)
+
+<br />
+
+![Homepage-Web](https://github.com/jessicamyee/fgli-college-prep-resource-hub/blob/main/assets/homepage-mobile.png)
+
+<br />
+
+![Homepage-Web](https://github.com/jessicamyee/fgli-college-prep-resource-hub/blob/main/assets/category-web.png)
+
+<br />
+
+![Homepage-Web](https://github.com/jessicamyee/fgli-college-prep-resource-hub/blob/main/assets/category-mobile.png)
+
+
+
+
 
 ## Component Hierarchy
 PENDING -- Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
