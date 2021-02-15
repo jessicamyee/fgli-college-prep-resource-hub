@@ -106,18 +106,18 @@ PENDING -- Show us a snippet of JSON returned by your Airtable (you can find it 
 | Complete Airtable initial database and app integration | H | 2hrs|  |  |
 | Pseudocode React functionality for homepage (App.js) and category page | H | 1hr |  |  |
 | Code out primary structure of App.js | H | 1hr |  |  |
-| Code out GET request - for App.js and relevant components | H | 2hrs|  |  |
-| Code out the X-NUMBER components and link to App.js | H | 4hrs|  |  |
+| Code out GET request | H | 2hrs|  |  |
+| Code out all components and link to App.js | H | 5hrs|  |  |
 | Code out the routes so that resources can only be seen in specific category pages | H | 2hrs|  |  |
 | QA-ing and debugging for App.js and component files | H | 3hrs|  |  |
 | Code out POST Request for the category pages | H | 2hrs|  |  |
 | QA-ing and debugging for POST request | H | 2hrs|  |  |
-| Code out Update Request for the category pages | H | 2hrs|  |  |
-| QA-ing and debugging for POST request | H | 2hrs|  |  |
+| Code out UPDATE Request for the category pages | H | 2hrs|  |  |
+| QA-ing and debugging for UPDATE request | H | 2hrs|  |  |
 | Code out DELETE Request for the category pages | H | 2hrs|  |  |
-| QA-ing and debugging for POST request | H | 2hrs|  |  |
+| QA-ing and debugging for DELETE request | H | 2hrs|  |  |
 | Text decoration: font style, font size, font colors | M | 3hrs|  |  |
-| Using Flexbox/GRID: Elements (image, boxes) resizing and alignment | H | 4hrs|  |  |
+| Using Flexbox/GRID: Elements resizing and alignment | H | 4hrs|  |  |
 | Non-text element decoration (submit box, etc) | L | 4hrs|  |  |
 | Implementing responsive design | H | 3hrs|  |  |
 | Final webapp QA | H | 2hrs|  |  |
