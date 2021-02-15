@@ -109,27 +109,28 @@ PENDING -- Show your component hierarchy here! Use [this](https://cms-assets.tut
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| General: Setting up core files: HTML, CSS, and JS files | H | 0.5hr|  |  |
-| HTML: Writing out the HTML semantics | H | 2hrs|  |  |
-| Complete Airtable initial database and app integration | H | 2hrs|  |  |
-| Pseudocode React functionality for homepage (App.js) and category page | H | 1hr |  |  |
-| Code out primary structure of App.js | H | 1hr |  |  |
-| Code out GET request | H | 2hrs|  |  |
-| Code out all components and link to App.js | H | 5hrs|  |  |
-| Code out the routes so that resources can only be seen in specific category pages | H | 2hrs|  |  |
-| QA-ing and debugging for App.js and component files | H | 3hrs|  |  |
-| Code out POST Request for the category pages | H | 2hrs|  |  |
+| General: Set up React app and install relevant tools | H | 0.5hr|  |  |
+| General: Clean up App.js and set up directory structure | H | 0.5hr|  |  |
+| Airtable: Ensure all initial data is complete (4 resources per category) | H | 1hr|  |  |
+| Airtable: Complete Airtable initial database and app integration | H | 1hr|  |  |
+| Pseudocode: React functionality for all components | M | 2hrs |  |  |
+| Code out primary structure of App.js (setting up Routes) | H | 1hr |  |  |
+| Code out Nav.jsx, Footer,jsx, Home.jsx (for the Important Dates section) | H | 2.5hrs |  |  |
+| GET request: React coding on Home.jsx, ResourceCategory.jsx, ResourceCategoryDetails.jsx | H | 3hrs|  |  |
+| QA-ing and debugging for App.js and component files | H | 2hrs|  |  |
+| POST request: Set up the form and React coding for the category pages | H | 2hrs|  |  |
+| POST request: Implement a character limit for the Textarea  | M | 2hrs|  |  |
 | QA-ing and debugging for POST request | H | 2hrs|  |  |
-| Code out UPDATE Request for the category pages | H | 2hrs|  |  |
+| UPDATE request: React coding for the category pages | H | 2hrs|  |  |
 | QA-ing and debugging for UPDATE request | H | 2hrs|  |  |
-| Code out DELETE Request for the category pages | H | 2hrs|  |  |
+| DELETE request: React coding for the category pages | H | 2hrs|  |  |
 | QA-ing and debugging for DELETE request | H | 2hrs|  |  |
+| Add conditional logic that disables update/delete for the first 2 resources in every category | H | 1hr|  |  |
 | Text decoration: font style, font size, font colors | M | 3hrs|  |  |
 | Using Flexbox/GRID: Elements resizing and alignment | H | 4hrs|  |  |
-| Non-text element decoration (submit box, etc) | L | 4hrs|  |  |
 | Implementing responsive design | H | 3hrs|  |  |
-| Final webapp QA | H | 2hrs|  |  |
-| Total | H | |  |  |
+| Final webapp QA | H | 1hr|  |  |
+| Total | H |38.5hrs |  |  |
 
 ## SWOT Analysis
 
