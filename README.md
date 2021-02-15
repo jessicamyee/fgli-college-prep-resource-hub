@@ -39,41 +39,41 @@ Visitors will be able to select resources based on specific categories. They wil
 PENDING -- Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
 
 ## API and Data Sample
-
-PENDING -- Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This __must__ be properly formatted. An example is below:
-
 ```json
 {
     "records": [
         {
-            "id": "recONRzIUTuZ5lXaF",
+            "id": "recuT7hsRpQ2BN5UD",
             "fields": {
-                "author": "Liz Yrineo",
-                "setup": "Why did the tomato turn red?",
-                "punchline": "Because it saw the salad dressing!"
+                "title": "Khan Academy Study Guides",
+                "category": "SAT/ACT",
+                "description": "Free SAT study guides and sample exams with Khan Academy.",
+                "link": "https://www.khanacademy.org/test-prep/sat"
             },
-            "createdTime": "2020-11-30T16:03:09.000Z"
+            "createdTime": "2021-02-15T19:18:47.000Z"
         },
         {
-            "id": "rec3oYZ5Tp0AIDsKe",
+            "id": "recYlJsEEPS6zla9B",
             "fields": {
-                "author": "Rachel Moskowitz",
-                "setup": "What did the green grape say to the red grape?",
-                "punchline": "Breathe, idiot, breathe!"
+                "category": "SAT/ACT",
+                "title": "ACT Test Prep by ACT",
+                "description": "Free ACT test prep created by the ACT",
+                "link": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/free-act-test-prep.html"
             },
-            "createdTime": "2020-11-30T16:03:09.000Z"
+            "createdTime": "2021-02-15T19:18:47.000Z"
         },
         {
-            "id": "recA34tOaoE1IVeC1",
+            "id": "recedKQnDHN9IwY7D",
             "fields": {
-                "author": "Gary Grant",
-                "setup": "How do you make holy water?",
-                "punchline": "You boil the hell out of it!"
+                "category": "SAT/ACT",
+                "title": "SAT Question of the Day",
+                "link": "https://www.number2.com/sat-question-of-the-day/",
+                "description": "Practice by answering the SAT question of the day in various subjects."
             },
-            "createdTime": "2020-11-30T16:03:09.000Z"
+            "createdTime": "2021-02-15T19:18:47.000Z"
         }
     ],
-    "offset": "recA34tOaoE1IVeC1"
+    "offset": "recedKQnDHN9IwY7D"
 }
 ```
 
