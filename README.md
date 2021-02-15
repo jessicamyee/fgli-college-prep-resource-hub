@@ -127,7 +127,8 @@ PENDING -- Show your component hierarchy here! Use [this](https://cms-assets.tut
 | QA-ing and debugging for DELETE request | H | 2hrs|  |  |
 | Add conditional logic that disables update/delete for the first 2 resources in every category | H | 1hr|  |  |
 | Text decoration: font style, font size, font colors | M | 3hrs|  |  |
-| Using Flexbox/GRID: Elements resizing and alignment | H | 4hrs|  |  |
+| Using Flexbox/GRID Pt 1: Elements resizing and alignment | H | 2hrs|  |  |
+| Using Flexbox/GRID Pt 2: Elements resizing and alignment | H | 2hrs|  |  |
 | Implementing responsive design | H | 3hrs|  |  |
 | Final webapp QA | H | 1hr|  |  |
 | Total | H |38.5hrs |  |  |
