@@ -13,15 +13,23 @@ Visitors will be able to select resources based on specific categories. They wil
 
 <br />
 
-![Homepage-Web](https://github.com/jessicamyee/fgli-college-prep-resource-hub/blob/main/assets/homepage-mobile.png)
+![Homepage-Mobile](https://github.com/jessicamyee/fgli-college-prep-resource-hub/blob/main/assets/homepage-mobile.png)
 
 <br />
 
-![Homepage-Web](https://github.com/jessicamyee/fgli-college-prep-resource-hub/blob/main/assets/category-web.png)
+![Category-Web](https://github.com/jessicamyee/fgli-college-prep-resource-hub/blob/main/assets/category-web.png)
 
 <br />
 
-![Homepage-Web](https://github.com/jessicamyee/fgli-college-prep-resource-hub/blob/main/assets/category-mobile.png)
+![Category-Mobile](https://github.com/jessicamyee/fgli-college-prep-resource-hub/blob/main/assets/category-mobile.png)
+
+<br />
+
+![Form-Web](https://github.com/jessicamyee/fgli-college-prep-resource-hub/blob/main/assets/form-web.png)
+
+<br />
+
+![Form-Mobile](https://github.com/jessicamyee/fgli-college-prep-resource-hub/blob/main/assets/form-mobile.png)
 
 
 
