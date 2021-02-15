@@ -101,7 +101,7 @@ PENDING -- Show us a snippet of JSON returned by your Airtable (you can find it 
 | Code out DELETE Request for the category pages | H | 2hrs|  |  |
 | QA-ing and debugging for POST request | H | 2hrs|  |  |
 | Text decoration: font style, font size, font colors | M | 3hrs|  |  |
-| Using Flexbox/GRID: Elements (image, boxes) resizing and alignment | H | 3hrs|  |  |
+| Using Flexbox/GRID: Elements (image, boxes) resizing and alignment | H | 4hrs|  |  |
 | Non-text element decoration (submit box, etc) | L | 4hrs|  |  |
 | Implementing responsive design | H | 3hrs|  |  |
 | Final webapp QA | H | 2hrs|  |  |
@@ -110,9 +110,13 @@ PENDING -- Show us a snippet of JSON returned by your Airtable (you can find it 
 ## SWOT Analysis
 
 ### Strengths:
+At this moment, I am proficient in CRUD and functional React. I also feel good about the planning and strategy of this project to steer me in the right direction.
 
 ### Weaknesses:
+Based on my previous experience with P1, I spent much more time than I anticipated on the styling front. Since P1, I've found more resources to support me in styling, so I look forward to that part of the project.
 
 ### Opportunities:
+I'm excited for the Post-MVP version of this app where I'll explore user authorization and authentication. This will prevent bots and trolls from sabotaging the primary purpose of this project.
 
 ### Threats:
+I'm still a little shaky with class-based React. Especially given that we'll need to incorporate both class and functional React I may need to do a quick refresher on class class-based React.
