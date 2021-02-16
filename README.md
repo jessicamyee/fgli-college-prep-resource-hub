@@ -95,7 +95,7 @@ Visitors will be able to select resources based on specific categories. They wil
 |---|---| ---|
 |February 16| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |February 16| Project Approval | Incomplete
-|February 17| Core Application Structure (HTML, CSS, etc.) & Pseudocode | Incomplete
+|February 17| Core Application Structure (JS, CSS, etc.) & Pseudocode | Incomplete
 |February 18| Initial Clickable Model  | Incomplete
 |February 19| MVP | Incomplete
 |February 23| Presentations | Incomplete
@@ -126,7 +126,7 @@ Visitors will be able to select resources based on specific categories. They wil
 | Using Flexbox/GRID Pt 2: Elements resizing and alignment | H | 2hrs|  |  |
 | Implementing responsive design | H | 3hrs|  |  |
 | Final webapp QA | H | 1hr|  |  |
-| Total | H |38.5hrs |  |  |
+| Total | H |39.5hrs |  |  |
 
 ## SWOT Analysis
 
