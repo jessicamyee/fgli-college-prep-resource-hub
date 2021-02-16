@@ -5,9 +5,9 @@ import { Route } from "react-router-dom";
 import './App.css';
 
 function App() {
-
   const [resourceDetails, setResourceDetails] = useState([]);
 
+  
   useEffect(() => {
     const getResourceDetails = async () => {
       const resp = await axios.get(baseURL, config);
