@@ -21,15 +21,11 @@ Visitors will be able to select resources based on specific categories. They wil
 
 <br />
 
-![Category-Mobile](https://github.com/jessicamyee/fgli-college-prep-resource-hub/blob/main/assets/category-mobile.png)
+![Category-Mobile-1](https://github.com/jessicamyee/fgli-college-prep-resource-hub/blob/main/assets/category-mobile-1.png)
 
 <br />
 
-![Form-Web](https://github.com/jessicamyee/fgli-college-prep-resource-hub/blob/main/assets/form-web.png)
-
-<br />
-
-![Form-Mobile](https://github.com/jessicamyee/fgli-college-prep-resource-hub/blob/main/assets/form-mobile.png)
+![Category-Mobile-2](https://github.com/jessicamyee/fgli-college-prep-resource-hub/blob/main/assets/category-mobile-2.png)
 
 
 
