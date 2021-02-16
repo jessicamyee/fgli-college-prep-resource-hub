@@ -3,7 +3,7 @@ Deployed Link: PENDING
 
 ## Project Description
 
-The college preparation process can be daunting, especially if neither parents have attended college. This project, using React and Airtable, aims to provide first-generation, low-income (FGLI) high school students a hub of college prep resources — including but not limited to —  information on scholarships, summer program opportunites, etc. 
+The college preparation process can be daunting, especially if neither parents have attended college and/or you come from a low-income background. This project, using React and Airtable, aims to provide first-generation, low-income (FGLI) high school students a hub of college prep resources — including but not limited to —  information on scholarships, summer program opportunites, etc. 
 
 Visitors will be able to select resources based on specific categories. They will also be able to contribute to the hub by adding new resources, and updating/deleting existing ones.  
 
@@ -79,9 +79,8 @@ Visitors will be able to select resources based on specific categories. They wil
 
 - User to be able to view college prep resources by selecting the corresponding categories. 
 - User can add new resources by entering the category-specific page and contributing there.
-- User can edit existing resources.
-- User can delete existing resources.
-- Styling: clean, sleek, organized, and responsive
+- User can edit/delete existing resources (excluding the first 2 resources for each category).
+- Styling: clean, sleek, organized, and responsive using Flexbox and/or CSS Grid.
 
 
 #### PostMVP  
@@ -94,7 +93,7 @@ Visitors will be able to select resources based on specific categories. They wil
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|February 16| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|February 16| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |February 16| Project Approval | Incomplete
 |February 17| Core Application Structure (HTML, CSS, etc.) & Pseudocode | Incomplete
 |February 18| Initial Clickable Model  | Incomplete
@@ -138,7 +137,7 @@ At this moment, I am proficient in CRUD and functional React. I also feel good a
 Based on my previous experience with P1, I spent much more time than I anticipated on the styling front. Since P1, I've found more resources to support me in styling, so I look forward to that part of the project.
 
 ### Opportunities:
-I'm excited for the Post-MVP version of this app where I'll explore user authorization and authentication. This will prevent bots and trolls from sabotaging the primary purpose of this project.
+I'm excited for the Post-MVP version of this app where I'll explore user authorization and authentication. This will prevent bots and trolls from interfering with the primary purpose of this project.
 
 ### Threats:
-I'm still a little shaky with class-based React. Especially given that we'll need to incorporate both class and functional React I may need to do a quick refresher on class class-based React.
+I'm still a little shaky with class-based React. Especially given that we'll need to incorporate both class and functional React I may need to do a quick refresher on class-based React.
