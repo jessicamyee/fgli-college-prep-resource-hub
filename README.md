@@ -41,29 +41,29 @@ Visitors will be able to select resources based on specific categories. They wil
         {
             "id": "recuT7hsRpQ2BN5UD",
             "fields": {
+                "link": "https://www.khanacademy.org/test-prep/sat",
                 "title": "Khan Academy Study Guides",
                 "category": "SAT/ACT",
-                "description": "Free SAT study guides and sample exams with Khan Academy.",
-                "link": "https://www.khanacademy.org/test-prep/sat"
+                "description": "Free SAT study guides and sample exams with Khan Academy."
             },
             "createdTime": "2021-02-15T19:18:47.000Z"
         },
         {
             "id": "recYlJsEEPS6zla9B",
             "fields": {
-                "category": "SAT/ACT",
+                "link": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/free-act-test-prep.html",
                 "title": "ACT Test Prep by ACT",
-                "description": "Free ACT test prep created by the ACT",
-                "link": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/free-act-test-prep.html"
+                "category": "SAT/ACT",
+                "description": "Free ACT test prep created by the ACT"
             },
             "createdTime": "2021-02-15T19:18:47.000Z"
         },
         {
             "id": "recedKQnDHN9IwY7D",
             "fields": {
-                "category": "SAT/ACT",
-                "title": "SAT Question of the Day",
                 "link": "https://www.number2.com/sat-question-of-the-day/",
+                "title": "SAT Question of the Day",
+                "category": "SAT/ACT",
                 "description": "Practice by answering the SAT question of the day in various subjects."
             },
             "createdTime": "2021-02-15T19:18:47.000Z"
