@@ -1,13 +1,13 @@
-//! HOW TO BEST LAY OUT CATEGORY BOXES SO THAT WHEN YOU CLICK ON "SEE RESOURCES" IT WILL DIRECT YOU TO THE CORRECT CATEGORY
+//! So can we list 4 of those CategoryBox tags under h2 and call it under the category name so that when we select "see resources" it'll route to the ResouceCategory component route?
+
+import CategoryBox from "./CategoryBox"
+
 
 function Home() {
   return (
     <div>
       <h2>HP: Insert Important Dates Here</h2>
-      <h1>SAT / ACT</h1>
-      <h1>Summer Programs / Extracurriculars</h1>
-      <h1>Scholarships / Financial Aid</h1>
-      <h1>Choosing the Right College</h1>
+      <CategoryBox />
     </div>
   );
 }
