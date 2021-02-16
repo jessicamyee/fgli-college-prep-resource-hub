@@ -94,7 +94,7 @@ Visitors will be able to select resources based on specific categories. They wil
 |  Day | Deliverable | Status
 |---|---| ---|
 |February 16| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|February 16| Project Approval | Incomplete
+|February 16| Project Approval | Complete
 |February 17| Core Application Structure (JS, CSS, etc.) & Pseudocode | Incomplete
 |February 18| Initial Clickable Model  | Incomplete
 |February 19| MVP | Incomplete
@@ -140,4 +140,4 @@ Based on my previous experience with P1, I spent much more time than I anticipat
 I'm excited for the Post-MVP version of this app where I'll explore user authorization and authentication. This will prevent bots and trolls from interfering with the primary purpose of this project.
 
 ### Threats:
-I'm still a little shaky with class-based React. Especially given that we'll need to incorporate both class and functional React I may need to do a quick refresher on class-based React.
+Time - I'm hoping I'll have enough time (and only a few bugs) to finish MVP on time. I believe I do, but I always want to remain mindful.
