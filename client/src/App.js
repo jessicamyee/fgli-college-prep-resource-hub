@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { baseURL, config } from "./services";
-import { Route } from "react-router-dom";
+import { Link, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home";
 import ResourceCategoryDetails from "./components/ResourceCategoryDetails";

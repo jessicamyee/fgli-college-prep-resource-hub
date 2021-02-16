@@ -1,9 +1,12 @@
+import { Link } from "react-router-dom";
+
+function CategoryBox({title, linkto}) {
 
 
-function CategoryBox() {
   return (
     <div>
-      <p>This is the physical category box that's located in Home</p>
+      <h1>{title}</h1>
+      <Link to={linkto}><button>See Resources!</button></Link>
     </div>
   );
 }
