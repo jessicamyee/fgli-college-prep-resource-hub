@@ -1,9 +1,15 @@
-
-
-function ResourceCategoryDetails() {
+function ResourceCategoryDetails({ title, description, link }) {
   return (
-    <div>
-      <p>Resource Details for each Resource goes here</p>
+    <div className="resource-set">
+      <div className="resource-title">{title}</div>
+      <div className="resource-description">{description}</div>
+      <div className="resource-link">
+        <button>
+          <a href={link} className="button-text">
+            Read More
+          </a>
+        </button>
+      </div>
     </div>
   );
 }

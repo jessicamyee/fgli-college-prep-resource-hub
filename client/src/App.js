@@ -9,13 +9,13 @@ import ResourceCategory from "./components/ResourceCategory";
 import Footer from "./components/Footer";
 
 function App() {
-  const [resourceDetails, setResourceDetails] = useState([]);
+  const [resources, setResources] = useState([]);
   //todo Add togglefetch useState
 
   useEffect(() => {
     const getResourceDetails = async () => {
       const resp = await axios.get(baseURL, config);
-      setResourceDetails(resp.data.records);
+      setResources(resp.data.records);
     };
     getResourceDetails();
   }, []);
@@ -28,7 +28,7 @@ function App() {
       </Route>
 
       <Route path="/:category">
-        <ResourceCategory />
+        <ResourceCategory resources={resources}/>
       </Route>
 
       <Footer />
