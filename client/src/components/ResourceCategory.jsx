@@ -3,7 +3,7 @@ import ResourceCategoryDetails from "./ResourceCategoryDetails";
 import Form from "./Form";
 import CategoryNav from "./CategoryNav";
 
-function ResourceCategory({ resources }) {
+function ResourceCategory({ resources, setToggleFetch }) {
   const params = useParams();
 
   // console.log(resources);
@@ -25,7 +25,7 @@ function ResourceCategory({ resources }) {
           link={filteredResource.fields.link}
         />
       ))}
-      <Form />
+      <Form setToggleFetch={setToggleFetch} category={ categoryUrlToTitle(params.category)}/>
     </div>
   );
 }

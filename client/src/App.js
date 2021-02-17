@@ -10,7 +10,8 @@ import Footer from "./components/Footer";
 
 function App() {
   const [resources, setResources] = useState([]);
-  //todo Add togglefetch useState
+  const [toggleFetch, setToggleFetch] = useState(false);
+
 
   useEffect(() => {
     const getResourceDetails = async () => {
@@ -18,8 +19,8 @@ function App() {
       setResources(resp.data.records);
     };
     getResourceDetails();
-  }, []);
-  //todo add togglefetch inside array
+  }, [toggleFetch]);
+  
 
   return (
     <div className="App">
@@ -28,7 +29,7 @@ function App() {
       </Route>
 
       <Route path="/:category">
-        <ResourceCategory resources={resources}/>
+        <ResourceCategory resources={resources} setToggleFetch={setToggleFetch}/>
       </Route>
 
       <Footer />
