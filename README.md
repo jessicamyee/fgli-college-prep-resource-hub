@@ -95,7 +95,7 @@ Visitors will be able to select resources based on specific categories. They wil
 |February 16| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |February 16| Project Approval | Complete
 |February 17| Core Application Structure (JS, CSS, etc.) & Pseudocode | Complete
-|February 18| Initial Clickable Model  | Incomplete
+|February 18| Initial Clickable Model  | Complete
 |February 19| MVP | Incomplete
 |February 23| Presentations | Incomplete
 
