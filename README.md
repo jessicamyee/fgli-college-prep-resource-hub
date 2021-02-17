@@ -95,7 +95,7 @@ Visitors will be able to select resources based on specific categories. They wil
 |---|---| ---|
 |February 16| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |February 16| Project Approval | Complete
-|February 17| Core Application Structure (JS, CSS, etc.) & Pseudocode | Incomplete
+|February 17| Core Application Structure (JS, CSS, etc.) & Pseudocode | Complete
 |February 18| Initial Clickable Model  | Incomplete
 |February 19| MVP | Incomplete
 |February 23| Presentations | Incomplete
@@ -104,15 +104,15 @@ Visitors will be able to select resources based on specific categories. They wil
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| General: Set up React app and install relevant tools | H | 0.5hr|  |  |
-| General: Clean up App.js and set up directory structure | H | 0.5hr|  |  |
-| Airtable: Ensure all initial data is complete (4 resources per category) | H | 1hr|  |  |
-| Airtable: Complete Airtable initial database and app integration | H | 1hr|  |  |
-| Pseudocode: React functionality for all components | M | 2hrs |  |  |
-| Code out primary structure of App.js (setting up Routes) | H | 1hr |  |  |
+| General: Set up React app and install relevant tools | H | 0.5hr| 0.33hr | 0.33hr |
+| General: Clean up App.js and set up directory structure | H | 0.5hr| 0.07hr | 0.07hr |
+| Airtable: Ensure all initial data is complete (4 resources per category) | H | 1hr| 0.25hr | 0.25hr |
+| Airtable: Complete Airtable initial database and app integration | H | 1hr| 0.25hr | 0.25hr |
+| Pseudocode: React functionality for all components | M | 2hrs | 0.83hr | 0.83hr |
+| Code out primary structure of App.js (setting up Routes) | H | 1hr | 0.7hr | 0.7hr |
 | Code out Nav.jsx, Footer,jsx, Home.jsx (for the Important Dates section) | H | 2.5hrs |  |  |
-| GET request: React coding on Home.jsx, ResourceCategory.jsx, ResourceCategoryDetails.jsx | H | 3hrs|  |  |
-| QA-ing and debugging for App.js and component files | H | 2hrs|  |  |
+| GET request: React coding on Home.jsx, ResourceCategory.jsx, ResourceCategoryDetails.jsx | H | 3hrs| 2hrs | 2hrs |
+| QA-ing and debugging for App.js and component files | H | 2hrs| 1hr | 1hr |
 | POST request: Set up the form and React coding for the category pages | H | 2hrs|  |  |
 | POST request: Implement a character limit for the Textarea  | M | 2hrs|  |  |
 | QA-ing and debugging for POST request | H | 2hrs|  |  |
