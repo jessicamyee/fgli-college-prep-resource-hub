@@ -6,9 +6,6 @@ import CategoryNav from "./CategoryNav";
 function ResourceCategory({ resources, setToggleFetch }) {
   const params = useParams();
 
-  // console.log(resources);
-
-  // Filter resourceS so that you have the particular 1 resource type that you want
   const filteredResources = resources.filter((resource) => {
     return resource.fields.category === categoryUrlToTitle(params.category);
   });
@@ -17,6 +14,9 @@ function ResourceCategory({ resources, setToggleFetch }) {
     <div>
       <CategoryNav />
       <h1>{categoryUrlToTitle(params.category)}</h1>
+
+      {/* <p>{button.clicked === true ? "Thanks for submitting!": ""}</p>; */}
+
       {filteredResources.map((filteredResource) => (
         <ResourceCategoryDetails
           key={filteredResource.id}

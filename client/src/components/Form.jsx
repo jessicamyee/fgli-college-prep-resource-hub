@@ -2,12 +2,14 @@ import { useState } from "react";
 import axios from "axios";
 import { baseURL, config } from "../services";
 
-function Form({setToggleFetch, category}) {
+function Form({ setToggleFetch, category }) {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [link, setLink] = useState("https://");
-  
 
+  const displaySubmitConfirmation = () => {
+    console.log("Thanks for submitting!");
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -19,9 +21,10 @@ function Form({setToggleFetch, category}) {
     };
     await axios.post(baseURL, { fields }, config);
     setToggleFetch((curr) => !curr);
-    setTitle("")
-    setDescription("")
-    setLink("https://")
+    displaySubmitConfirmation();
+    setTitle("");
+    setDescription("");
+    setLink("https://");
   };
 
   return (
@@ -36,7 +39,6 @@ function Form({setToggleFetch, category}) {
           value={title}
           placeholder="Title"
           onChange={(e) => setTitle(e.target.value)}
-
         />
       </div>
 
@@ -54,7 +56,7 @@ function Form({setToggleFetch, category}) {
       </div>
 
       <div>
-      <label htmlFor="link"></label>
+        <label htmlFor="link"></label>
         <p>Link:</p>
         <input
           id="link"
@@ -64,8 +66,11 @@ function Form({setToggleFetch, category}) {
         />
       </div>
 
-
-      <div><button className="submit-btn" onClick={handleSubmit} >Add</button></div>
+      <div>
+        <button className="submit-btn" onClick={handleSubmit}>
+          Add
+        </button>
+      </div>
     </form>
   );
 }
