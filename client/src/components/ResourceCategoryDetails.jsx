@@ -5,7 +5,7 @@ function ResourceCategoryDetails({ title, description, link }) {
       <div className="resource-description">{description}</div>
       <div className="resource-link">
         <button>
-          <a href={link} className="button-text">
+          <a target="_blank" href={link} className="button-text">
             Read More
           </a>
         </button>
