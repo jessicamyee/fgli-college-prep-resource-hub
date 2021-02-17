@@ -5,7 +5,7 @@ Deployed Link: PENDING
 
 The college preparation process can be daunting, especially if neither parents have attended college and/or you come from a low-income background. This project, using React and Airtable, aims to provide first-generation, low-income (FGLI) high school students a hub of college prep resources — including but not limited to —  information on scholarships, summer program opportunites, etc. 
 
-Visitors will be able to select resources based on specific categories. They will also be able to contribute to the hub by adding new resources, and updating/deleting existing ones.  
+Visitors will be able to select resources based on specific categories. They will also be able to contribute to the hub by adding new resources.
 
 ## Wireframes
 
@@ -79,7 +79,6 @@ Visitors will be able to select resources based on specific categories. They wil
 
 - User to be able to view college prep resources by selecting the corresponding categories. 
 - User can add new resources by entering the category-specific page and contributing there.
-- User can edit/delete existing resources (excluding the first 2 resources for each category).
 - Styling: clean, sleek, organized, and responsive using Flexbox and/or CSS Grid.
 
 
@@ -115,18 +114,17 @@ Visitors will be able to select resources based on specific categories. They wil
 | QA-ing and debugging for App.js and component files | H | 2hrs| 1hr | 1hr |
 | POST request: Set up the form and React coding for the category pages | H | 2hrs|  |  |
 | POST request: Implement a character limit for the Textarea  | M | 2hrs|  |  |
+| POST request: Add pop-up when hitting submit to confirm to submit  | M | 2hrs|  |  |
+| POST request: After submitting, add banner at top to confirm submission & include message about deleting or updating to email Jess | H | 2hrs|  |  |
 | QA-ing and debugging for POST request | H | 2hrs|  |  |
-| UPDATE request: React coding for the category pages | H | 2hrs|  |  |
-| QA-ing and debugging for UPDATE request | H | 2hrs|  |  |
-| DELETE request: React coding for the category pages | H | 2hrs|  |  |
-| QA-ing and debugging for DELETE request | H | 2hrs|  |  |
-| Add conditional logic that disables update/delete for the first 2 resources in every category | H | 1hr|  |  |
+| Create group email for inquiries | M | 2hrs|  |  |
+| Add note at footer about inquiries | M | 1hr|  |  |
 | Text decoration: font style, font size, font colors | M | 3hrs|  |  |
 | Using Flexbox/GRID Pt 1: Elements resizing and alignment | H | 2hrs|  |  |
 | Using Flexbox/GRID Pt 2: Elements resizing and alignment | H | 2hrs|  |  |
 | Implementing responsive design | H | 3hrs|  |  |
 | Final webapp QA | H | 1hr|  |  |
-| Total | H |39.5hrs |  |  |
+| Total | H |37.5hrs |  |  |
 
 ## SWOT Analysis
 
