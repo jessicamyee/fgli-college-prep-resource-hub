@@ -2,20 +2,21 @@ import { useParams } from "react-router-dom";
 import ResourceCategoryDetails from "./ResourceCategoryDetails";
 import Form from "./Form";
 import CategoryNav from "./CategoryNav";
+import { useState } from "react";
 
 function ResourceCategory({ resources, setToggleFetch }) {
   const params = useParams();
-
   const filteredResources = resources.filter((resource) => {
     return resource.fields.category === categoryUrlToTitle(params.category);
   });
+  const [showConfirmationStatus, setShowConfirmationStatus] = useState(false);
 
   return (
     <div>
       <CategoryNav />
       <h1>{categoryUrlToTitle(params.category)}</h1>
 
-      {/* <p>{button.clicked === true ? "Thanks for submitting!": ""}</p>; */}
+      <p>{showConfirmationStatus ? "Thank you for contributing! If you need to update or delete your resource, please email us at jess.myee@gmail.com." : ""}</p>
 
       {filteredResources.map((filteredResource) => (
         <ResourceCategoryDetails
@@ -25,7 +26,11 @@ function ResourceCategory({ resources, setToggleFetch }) {
           link={filteredResource.fields.link}
         />
       ))}
-      <Form setToggleFetch={setToggleFetch} category={ categoryUrlToTitle(params.category)}/>
+      <Form
+        setToggleFetch={setToggleFetch}
+        category={categoryUrlToTitle(params.category)}
+        setShowConfirmationStatus={setShowConfirmationStatus}
+      />
     </div>
   );
 }

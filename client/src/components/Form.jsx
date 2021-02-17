@@ -2,14 +2,12 @@ import { useState } from "react";
 import axios from "axios";
 import { baseURL, config } from "../services";
 
-function Form({ setToggleFetch, category }) {
+function Form({ setToggleFetch, category, setShowConfirmationStatus }) {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [link, setLink] = useState("https://");
 
-  const displaySubmitConfirmation = () => {
-    console.log("Thanks for submitting!");
-  };
+  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -21,7 +19,7 @@ function Form({ setToggleFetch, category }) {
     };
     await axios.post(baseURL, { fields }, config);
     setToggleFetch((curr) => !curr);
-    displaySubmitConfirmation();
+    setShowConfirmationStatus(true);
     setTitle("");
     setDescription("");
     setLink("https://");
