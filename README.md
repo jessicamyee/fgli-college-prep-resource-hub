@@ -109,22 +109,20 @@ Visitors will be able to select resources based on specific categories. They wil
 | Airtable: Complete Airtable initial database and app integration | H | 1hr| 0.25hr | 0.25hr |
 | Pseudocode: React functionality for all components | M | 2hrs | 0.83hr | 0.83hr |
 | Code out primary structure of App.js (setting up Routes) | H | 1hr | 0.7hr | 0.7hr |
-| Code out Nav.jsx, Footer,jsx, Home.jsx (for the Important Dates section) | H | 2.5hrs |  |  |
+| Code out Nav.jsx, Footer,jsx, Home.jsx (for the Important Dates section) | H | 2.5hrs | 0.33hr | 0.33hr |
 | GET request: React coding on Home.jsx, ResourceCategory.jsx, ResourceCategoryDetails.jsx | H | 3hrs| 2hrs | 2hrs |
 | QA-ing and debugging for App.js and component files | H | 2hrs| 1hr | 1hr |
-| POST request: Set up the form and React coding for the category pages | H | 2hrs|  |  |
-| POST request: Implement a character limit for the Textarea  | M | 2hrs|  |  |
-| POST request: Add pop-up when hitting submit to confirm to submit  | M | 2hrs|  |  |
-| POST request: After submitting, add banner at top to confirm submission & include message about deleting or updating to email Jess | H | 2hrs|  |  |
-| QA-ing and debugging for POST request | H | 2hrs|  |  |
-| Create group email for inquiries | M | 2hrs|  |  |
-| Add note at footer about inquiries | M | 1hr|  |  |
+| POST request: Set up the form and React coding for the category pages | H | 2hrs| 0.5hr | 0.5hr |
+| POST request: Implement a character limit for the Textarea  | M | 2hrs| 0.5hr | 0.5hr |
+| POST request: After submitting, add banner at top to confirm submission & include message about deleting or updating to email the "team" | H | 2hrs| 0.75hr | 0.75hr |
+| QA-ing and debugging for POST request | H | 2hrs| 1.5hrs | 1.5hrs |
+| Create group email for inquiries and add to footer and banner | M | 2hrs| 0.33hr | 0.33hr |
 | Text decoration: font style, font size, font colors | M | 3hrs|  |  |
 | Using Flexbox/GRID Pt 1: Elements resizing and alignment | H | 2hrs|  |  |
 | Using Flexbox/GRID Pt 2: Elements resizing and alignment | H | 2hrs|  |  |
 | Implementing responsive design | H | 3hrs|  |  |
 | Final webapp QA | H | 1hr|  |  |
-| Total | H |37.5hrs |  |  |
+| Total | H |34.5hrs |  |  |
 
 ## SWOT Analysis
 
