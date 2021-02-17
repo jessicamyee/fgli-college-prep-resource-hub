@@ -1,12 +1,13 @@
 import { useState } from "react";
 import axios from "axios";
 import { baseURL, config } from "../services";
-import { useHistory } from "react-router-dom";
 
 function Form({setToggleFetch, category}) {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
-  const [link, setLink] = useState("");
+  const [link, setLink] = useState("https://");
+  
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -20,11 +21,11 @@ function Form({setToggleFetch, category}) {
     setToggleFetch((curr) => !curr);
     setTitle("")
     setDescription("")
-    setLink("")
+    setLink("https://")
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form>
       <h2>Add a Resource!</h2>
       <div>
         <p>Title:</p>
@@ -35,6 +36,7 @@ function Form({setToggleFetch, category}) {
           value={title}
           placeholder="Title"
           onChange={(e) => setTitle(e.target.value)}
+
         />
       </div>
 
@@ -46,6 +48,7 @@ function Form({setToggleFetch, category}) {
           type="text"
           value={description}
           placeholder="Short Description about the Resource"
+          maxLength="150"
           onChange={(e) => setDescription(e.target.value)}
         />
       </div>
@@ -57,23 +60,12 @@ function Form({setToggleFetch, category}) {
           id="link"
           type="text"
           value={link}
-          placeholder="Link to Resource"
           onChange={(e) => setLink(e.target.value)}
         />
       </div>
 
-      {/* <div>
-      <label htmlFor="category"></label>
-        <p>Category:</p>
-        <input
-          id="category"
-          type="text"
-          value={category}
-          placeholder="Select your category"
-          onChange={(e) => setCategory(e.target.value)}
-        />
-      </div> */}
-      <div><button className="submit-btn" type="submit">Add</button></div>
+
+      <div><button className="submit-btn" onClick={handleSubmit} >Add</button></div>
     </form>
   );
 }
