@@ -16,7 +16,7 @@ function ResourceCategory({ resources, setToggleFetch }) {
       <CategoryNav />
       <h1>{categoryUrlToTitle(params.category)}</h1>
 
-      <p>{showConfirmationStatus ? "Thank you for contributing! If you need to update or delete your resource, please email us at jess.myee@gmail.com." : ""}</p>
+      <p>{showConfirmationStatus ? "Thank you for contributing! If you need to update or delete your resource, please email us at fgli-resource-hub@googlegroups.com." : ""}</p>
 
       {filteredResources.map((filteredResource) => (
         <ResourceCategoryDetails
