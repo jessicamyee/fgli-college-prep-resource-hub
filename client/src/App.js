@@ -1,18 +1,15 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { baseURL, config } from "./services";
-import { Link, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 import "./App.css";
-import Home from "./components/Home";
-import ResourceCategoryDetails from "./components/ResourceCategoryDetails";
-import ResourceCategory from "./components/ResourceCategory";
-import Footer from "./components/Footer";
-import CategoryNav from "./components/CategoryNav";
+import Home from "./components/homepage-files/Home";
+import ResourceCategory from "./components/resource-category-page-files/ResourceCategory";
+import Footer from "./components/footer-files/Footer";
 
 function App() {
   const [resources, setResources] = useState([]);
   const [toggleFetch, setToggleFetch] = useState(false);
-
 
   useEffect(() => {
     const getResourceDetails = async () => {
@@ -21,7 +18,6 @@ function App() {
     };
     getResourceDetails();
   }, [toggleFetch]);
-  
 
   return (
     <div className="App">
@@ -30,7 +26,10 @@ function App() {
       </Route>
 
       <Route path="/:category">
-        <ResourceCategory resources={resources} setToggleFetch={setToggleFetch}/>
+        <ResourceCategory
+          resources={resources}
+          setToggleFetch={setToggleFetch}
+        />
       </Route>
 
       <Footer />

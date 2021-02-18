@@ -1,6 +1,6 @@
+import "./Footer.css";
 
-
-function Footer() {
+function Footer() { 
   return (
     <footer>
       <a target="_blank" href="https://github.com/jessicamyee" className="fa fa-github"></a>

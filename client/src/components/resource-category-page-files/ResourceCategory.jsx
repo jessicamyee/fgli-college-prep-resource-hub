@@ -1,8 +1,9 @@
 import { useParams } from "react-router-dom";
 import ResourceCategoryDetails from "./ResourceCategoryDetails";
 import Form from "./Form";
-import CategoryNav from "./CategoryNav";
+import CategoryNav from "../nav-files/CategoryNav";
 import { useState } from "react";
+import "./ResourceInfo.css";
 
 function ResourceCategory({ resources, setToggleFetch }) {
   const params = useParams();

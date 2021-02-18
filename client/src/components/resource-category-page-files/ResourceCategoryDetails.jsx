@@ -1,4 +1,6 @@
-function ResourceCategoryDetails({ title, description, link }) {
+import "./ResourceInfo.css";
+
+function ResourceCategoryDetails({ title, description, link }) { 
   return (
     <div className="resource-set">
       <div className="resource-title">{title}</div>

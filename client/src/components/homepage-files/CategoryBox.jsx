@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
+import "./HomePage.css";
 
 function CategoryBox({title, linkto}) {
 

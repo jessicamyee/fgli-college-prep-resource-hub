@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useState } from "react"; 
 import axios from "axios";
-import { baseURL, config } from "../services";
+import { baseURL, config } from "../../services";
+import "./ResourceInfo.css";
 
 function Form({ setToggleFetch, category, setShowConfirmationStatus }) {
   const [title, setTitle] = useState("");
