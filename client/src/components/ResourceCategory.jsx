@@ -13,8 +13,8 @@ function ResourceCategory({ resources, setToggleFetch }) {
 
   return (
     <div>
-      <CategoryNav />
       <h1>{categoryUrlToTitle(params.category)}</h1>
+      <CategoryNav />
 
       <p>{showConfirmationStatus ? "Thank you for contributing! If you need to update or delete your resource, please email us at fgli-resource-hub@googlegroups.com." : ""}</p>
 

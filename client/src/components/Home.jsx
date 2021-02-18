@@ -1,10 +1,12 @@
 import CategoryBox from "./CategoryBox";
+import CategoryNav from "./CategoryNav";
 
 function Home() {
   return (
     <div>
       <h1>College Prep Resource Hub</h1>
       <h3>(For first-generation, low-income high school students)</h3>
+      <CategoryNav />
       <div className="important-dates-sect">
         <h2>Financial Aid Deadlines</h2>
         <table>

@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import ResourceCategoryDetails from "./components/ResourceCategoryDetails";
 import ResourceCategory from "./components/ResourceCategory";
 import Footer from "./components/Footer";
+import CategoryNav from "./components/CategoryNav";
 
 function App() {
   const [resources, setResources] = useState([]);
