@@ -1,16 +1,19 @@
-import CategoryBox from "./CategoryBox";
+import CategoryBox from "./CategoryBox"; 
 import CategoryNav from "../nav-files/CategoryNav";
 import "./HomePage.css";
 
 function Home() {
   return (
     <div>
-      <h1 className = "homepage-header">College Prep Resource Hub</h1>
-      <h3>(For first-generation, low-income high school students)</h3>
+      <header className="home-header-section">
+        <h1 id="homepage-header">College Prep Resource Hub</h1>
+        <h5 id="homepage-subheading">Supporting first-generation, low-income high school students</h5>
+      </header>
       <CategoryNav />
+      <div className="home-body">
       <div className="important-dates-sect">
-        <h2>Financial Aid Deadlines</h2>
-        <table>
+        <h2 className="table-header">Financial Aid Deadlines</h2>
+        <table id="table-1">
           <tbody>
             <tr>
               <th>Financial Aid</th>
@@ -38,13 +41,13 @@ function Home() {
           </tbody>
         </table>
 
-        <h2>Virtual College Fairs</h2>
-        <table>
+        <h2 className="table-header">Virtual College Fairs</h2>
+        <table id="table-2">
           <tbody>
             <tr>
               <th>Virtual College Fairs</th>
               <th>Event Date</th>
-              <th>Registration Link</th>
+              <th>Registration Info</th>
             </tr>
             <tr>
               <td>General College Fair</td>
@@ -136,7 +139,8 @@ function Home() {
       <CategoryBox
         title={"Choosing the Right College"}
         linkto={"/choosing-college"}
-      />
+        />
+        </div>
     </div>
   );
 }

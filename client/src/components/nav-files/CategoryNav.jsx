@@ -6,7 +6,7 @@ function CategoryNav() {
       <Navbar.Brand href="/">Home</Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Nav >
+        <Nav>
           <NavDropdown title="Resource Categories">
             <NavDropdown.Item href="/sat-act-resources">SAT/ACT</NavDropdown.Item>
             <NavDropdown.Item href="/summer-programs-extracurriculars">
