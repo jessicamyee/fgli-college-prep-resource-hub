@@ -1,16 +1,23 @@
-import { Link } from "react-router-dom"; 
-import "./CategoryNav.css";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 function CategoryNav() {
   return (
-    <nav>
-      <Link to="/">Home</Link>
-      <Link to="/sat-act-resources">SAT/ACT</Link>
-      <Link to="/summer-programs-extracurriculars">Summer Programs/Extracurriculars</Link>
-      <Link to="/scholarships-fin-aid">Scholarships/Financial Aid</Link>
-      <Link to="/choosing-college">Choosing the Right College</Link>
-    </nav>
+    <Navbar bg="light" expand="md">
+      <Navbar.Brand href="/">Home</Navbar.Brand>
+      <Navbar.Toggle />
+      <Navbar.Collapse>
+        <Nav >
+          <NavDropdown title="Resource Categories">
+            <NavDropdown.Item href="/sat-act-resources">SAT/ACT</NavDropdown.Item>
+            <NavDropdown.Item href="/summer-programs-extracurriculars">
+            Summer Programs/Extracurriculars
+            </NavDropdown.Item>
+            <NavDropdown.Item href="/scholarships-fin-aid">Scholarships/Financial Aid</NavDropdown.Item>
+            <NavDropdown.Item href="/choosing-college">Choosing the Right College</NavDropdown.Item>
+          </NavDropdown>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
-
 export default CategoryNav;

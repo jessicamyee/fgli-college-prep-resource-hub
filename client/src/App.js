@@ -6,6 +6,7 @@ import "./App.css";
 import Home from "./components/homepage-files/Home";
 import ResourceCategory from "./components/resource-category-page-files/ResourceCategory";
 import Footer from "./components/footer-files/Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [resources, setResources] = useState([]);
