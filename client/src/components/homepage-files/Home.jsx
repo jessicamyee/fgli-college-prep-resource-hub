@@ -127,6 +127,7 @@ function Home() {
         </table>
       </div>
 
+      <div className="categorybox-set">
       <CategoryBox title={"SAT/ACT"} linkto={"/sat-act-resources"} />
       <CategoryBox
         title={"Summer Programs/Extracurriculars"}
@@ -140,6 +141,7 @@ function Home() {
         title={"Choosing the Right College"}
         linkto={"/choosing-college"}
         />
+        </div>
         </div>
     </div>
   );

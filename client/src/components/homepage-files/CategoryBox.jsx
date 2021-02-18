@@ -5,9 +5,9 @@ function CategoryBox({title, linkto}) {
 
 
   return (
-    <div>
-      <h1>{title}</h1>
-      <Link to={linkto}><button>See Resources!</button></Link>
+    <div className="category-box">
+      <h1 className="category-title">{title}</h1>
+      <Link to={linkto}><button className="resources-btn">See Resources!</button></Link>
     </div>
   );
 }
