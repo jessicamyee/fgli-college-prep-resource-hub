@@ -1,9 +1,11 @@
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import "./CategoryNav.css";
+
 
 function CategoryNav() {
   return (
-    <Navbar bg="light" expand="md">
-      <Navbar.Brand href="/">Home</Navbar.Brand>
+    <Navbar className="nav-section" expand="md">
+      <Navbar.Brand id="home-nav" href="/">Home</Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Nav>
