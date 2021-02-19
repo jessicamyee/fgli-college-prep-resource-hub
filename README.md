@@ -1,5 +1,5 @@
 # FGLI-college-prep-resource-hub
-Deployed Link: PENDING
+Deployed Link: https://zen-tesla-60dc5f.netlify.app
 
 ## Project Description
 
