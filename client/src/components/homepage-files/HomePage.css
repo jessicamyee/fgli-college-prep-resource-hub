@@ -43,11 +43,6 @@
   color: #F4F1DE;
 }
 
-/* table{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-} */
 
 
 th, td {
@@ -62,6 +57,11 @@ th{
 td{
   background-color: #F4F1DE;
 }
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #f0ecebc2;
+}
+
 
 .home-body{
   background-color: #3d405b;

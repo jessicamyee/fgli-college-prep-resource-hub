@@ -17,7 +17,7 @@ function Home() {
         {/* Tables for homepage   */}
         <div className="important-dates-sect">
           <h2 className="table-header">Financial Aid Deadlines</h2>
-          <Table striped bordered hover size="md">
+          <Table striped bordered hover={true} size="md">
             <thead>
               <tr>
                 <th>Financial Aid</th>
