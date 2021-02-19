@@ -1,12 +1,12 @@
 import "./ResourceInfo.css";
 
-function ResourceCategoryDetails({ title, description, link }) { 
+function ResourceCategoryDetails({ title, description, link }) {
   return (
     <div className="resource-set">
       <div className="resource-title">{title}</div>
       <div className="resource-description">{description}</div>
-      <div className="resource-link">
-        <button>
+      <div>
+        <button className="resource-link">
           <a target="_blank" href={link} className="button-text">
             Read More
           </a>
@@ -15,5 +15,4 @@ function ResourceCategoryDetails({ title, description, link }) {
     </div>
   );
 }
-
 export default ResourceCategoryDetails;
