@@ -28,9 +28,9 @@ function Form({ setToggleFetch, category, setShowConfirmationStatus }) {
 
   return (
     <form>
-      <h2>Add a Resource!</h2>
+      <h2 className="form-title">Add a Resource:</h2>
       <div>
-        <p>Title:</p>
+        <p className="form-labels">Title:</p>
         <label htmlFor="title"></label>
         <input
           id="title"
@@ -42,7 +42,7 @@ function Form({ setToggleFetch, category, setShowConfirmationStatus }) {
       </div>
 
       <div>
-        <p>Description:</p>
+        <p className="form-labels">Description:</p>
         <label htmlFor="description"></label>
         <textarea
           id="description"
@@ -56,7 +56,7 @@ function Form({ setToggleFetch, category, setShowConfirmationStatus }) {
 
       <div>
         <label htmlFor="link"></label>
-        <p>Link:</p>
+        <p className="form-labels">Link:</p>
         <input
           id="link"
           type="text"

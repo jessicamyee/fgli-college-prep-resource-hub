@@ -62,12 +62,21 @@
 
 form {
   margin: 20px 50px;
-  border-style: solid;
   padding: 20px;
+  background-color: #3d405bd0;
+}
+
+.form-title, .form-labels{
+  color: #FFFFFF;
+}
+
+.form-labels{
+  margin-top: 15px;
 }
 
 input, textarea {
   width: 500px;
+  border-radius: 6px;
 }
 
 textarea{
