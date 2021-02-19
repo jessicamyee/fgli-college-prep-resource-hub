@@ -1,5 +1,4 @@
 footer {
-  margin: 0px 50px;
   background-color: #000000;
 }
 
@@ -11,4 +10,10 @@ footer {
 
 .fa {
   padding: 0px 0px 20px;
+}
+
+@media screen and (max-width: 480px){
+  .footer-contact{
+    font-size: 15px;
+  }
 }
