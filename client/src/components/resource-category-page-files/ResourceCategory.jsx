@@ -19,31 +19,34 @@ function ResourceCategory({ resources, setToggleFetch }) {
           {categoryUrlToTitle(params.category)}
         </h1>
       </header>
-      
       <CategoryNav />
+      <button className="contribute-btn">
+        <a href="#form-location">Contribute</a>
+      </button>
+      <p>
+        {showConfirmationStatus
+          ? "Thank you for contributing! If you need to update or delete your resource, please email us at fgli-resource-hub@googlegroups.com."
+          : ""}
+      </p>
 
-        <p>
-          {showConfirmationStatus
-            ? "Thank you for contributing! If you need to update or delete your resource, please email us at fgli-resource-hub@googlegroups.com."
-            : ""}
-        </p>
-        
-        <div className="resource-list-container">
-          {filteredResources.map((filteredResource) => (
-            <ResourceCategoryDetails
-              key={filteredResource.id}
-              title={filteredResource.fields.title}
-              description={filteredResource.fields.description}
-              link={filteredResource.fields.link}
-            />
-          ))}
-        </div>
+      <div className="resource-list-container">
+        {filteredResources.map((filteredResource) => (
+          <ResourceCategoryDetails
+            key={filteredResource.id}
+            title={filteredResource.fields.title}
+            description={filteredResource.fields.description}
+            link={filteredResource.fields.link}
+          />
+        ))}
+      </div>
 
+      <div id="form-location">
         <Form
           setToggleFetch={setToggleFetch}
           category={categoryUrlToTitle(params.category)}
           setShowConfirmationStatus={setShowConfirmationStatus}
         />
+      </div>
     </div>
   );
 }

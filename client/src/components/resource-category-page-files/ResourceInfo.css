@@ -25,7 +25,12 @@
   border-radius: 10px;
 }
 
-
+.contribute-btn{
+  width: 100px;
+  border-radius: 6px;
+  margin-top: 20px;
+  background-color: #81B29A;
+}
 
 .resource-list-container{
   display: flex;
