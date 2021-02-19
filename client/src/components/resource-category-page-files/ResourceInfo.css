@@ -96,4 +96,11 @@ textarea{
   background-color: #81B29A;
 }
 
+.confirmation-statement{
+  margin: 15px 50px;
+  color: #3CB043;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 

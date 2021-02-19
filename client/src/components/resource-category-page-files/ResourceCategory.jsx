@@ -47,9 +47,9 @@ function ResourceCategory({ resources, setToggleFetch }) {
       </button>
 
       {/* Statement will be triggered when user successfully submits a resource to the page. */}
-      <p>
+      <p className="confirmation-statement">
         {showConfirmationStatus
-          ? "Thank you for contributing! If you need to update or delete your resource, please email us at fgli-resource-hub@googlegroups.com."
+          ? "Thank you for contributing! If you need to update/delete your resource, please email us at fgli-resource-hub@googlegroups.com."
           : ""}
       </p>
 

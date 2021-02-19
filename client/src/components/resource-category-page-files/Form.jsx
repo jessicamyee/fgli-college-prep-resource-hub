@@ -48,7 +48,7 @@ function Form({ setToggleFetch, category, setShowConfirmationStatus }) {
           id="description"
           type="text"
           value={description}
-          placeholder="Short Description about the Resource"
+          placeholder="Short Description about the Resource (Limit: 150 characters)"
           maxLength="150"
           onChange={(e) => setDescription(e.target.value)}
         />
