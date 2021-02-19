@@ -14,10 +14,15 @@ function ResourceCategory({ resources, setToggleFetch }) {
 
   return (
     <div>
-      <h1>{categoryUrlToTitle(params.category)}</h1>
+      <header className="category-header-section">
+        <h1 className="category-header">{categoryUrlToTitle(params.category)}</h1>
+      </header>
       <CategoryNav />
-
-      <p>{showConfirmationStatus ? "Thank you for contributing! If you need to update or delete your resource, please email us at fgli-resource-hub@googlegroups.com." : ""}</p>
+      <p>
+        {showConfirmationStatus
+          ? "Thank you for contributing! If you need to update or delete your resource, please email us at fgli-resource-hub@googlegroups.com."
+          : ""}
+      </p>
 
       {filteredResources.map((filteredResource) => (
         <ResourceCategoryDetails
@@ -42,10 +47,10 @@ function categoryUrlToTitle(categoryUrl) {
       return "SAT/ACT";
 
     case "summer-programs-extracurriculars":
-      return "Summer Programs/Extracurriculars";
+      return "Summer Programs/ Extracurriculars";
 
     case "scholarships-fin-aid":
-      return "Scholarships/Financial Aid";
+      return "Scholarships/ Financial Aid";
 
     case "choosing-college":
       return "Choosing the Right College";

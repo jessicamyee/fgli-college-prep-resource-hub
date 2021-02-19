@@ -1,0 +1,28 @@
+.category-header-section{
+  background-image: url("../../banner-images/category-banner.jpeg");
+  /* image source: https://unsplash.com/photos/9BoqXzEeQqM */
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.9;
+  filter:brightness(0.9);
+  margin: 0px 50px;
+}
+
+.category-header {
+  text-align: center;
+  font-size: 45px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  background-color: #3d405bd0;
+  letter-spacing: 3px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
