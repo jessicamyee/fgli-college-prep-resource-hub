@@ -35,15 +35,15 @@
 }
 
 .important-dates-sect{
-  padding-top: 5%;
+  padding-top: 15px;
 }
 
 .table-header{
   font-size: 25px;
+  padding-bottom: 25px;
+  padding-top: 25px;
   color: #F4F1DE;
 }
-
-
 
 th, td {
   border: 1px solid;
@@ -61,6 +61,11 @@ td{
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
   background-color: #f0ecebc2;
 }
+
+.btn-text{
+  color: black;
+}
+
 
 
 .home-body{
@@ -95,9 +100,5 @@ td{
 }
 
 .resources-btn{
-  border-radius: 8px;
-  border-color: #3D405B;
-  border-style: solid;
-  background-color: #E07A5F;
-  padding: 5px;
+  margin: 25px;
 }

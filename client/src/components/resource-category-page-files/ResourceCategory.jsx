@@ -4,6 +4,7 @@ import Form from "./Form";
 import CategoryNav from "../nav-files/CategoryNav";
 import { useState } from "react";
 import "./ResourceInfo.css";
+import Button from 'react-bootstrap/Button';
 
 //Independent function that links the Airtable category name to this app's category name  
 function categoryUrlToTitle(categoryUrl) {
@@ -42,9 +43,9 @@ function ResourceCategory({ resources, setToggleFetch }) {
         </h1>
       </header>
       <CategoryNav />
-      <button className="contribute-btn">
+      <Button className="contribute-btn" variant="outline-success">
         <a href="#form-location">Contribute</a>
-      </button>
+      </Button>
 
       {/* Statement will be triggered when user successfully submits a resource to the page. */}
       {showConfirmationStatus &&

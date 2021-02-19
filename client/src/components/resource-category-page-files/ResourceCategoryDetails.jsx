@@ -1,4 +1,5 @@
 import "./ResourceInfo.css";
+import Button from 'react-bootstrap/Button';
 
 function ResourceCategoryDetails({ title, description, link }) {
   return (
@@ -6,11 +7,11 @@ function ResourceCategoryDetails({ title, description, link }) {
       <div className="resource-title">{title}</div>
       <div className="resource-description">{description}</div>
       <div>
-        <button className="resource-link">
+        <Button className="resource-link" variant="warning">
           <a target="_blank" href={link} className="button-text">
             Read More
           </a>
-        </button>
+        </Button>
       </div>
     </div>
   );

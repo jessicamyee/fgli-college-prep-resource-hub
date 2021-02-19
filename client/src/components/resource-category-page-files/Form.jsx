@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { baseURL, config } from "../../services";
 import "./ResourceInfo.css";
+import Button from 'react-bootstrap/Button';
 
 function Form({ setToggleFetch, category, setShowConfirmationStatus }) {
   const [title, setTitle] = useState("");
@@ -66,9 +67,9 @@ function Form({ setToggleFetch, category, setShowConfirmationStatus }) {
       </div>
 
       <div>
-        <button className="submit-btn" onClick={handleSubmit}>
+        <Button className="submit-btn" variant="success" onClick={handleSubmit}>
           Add
-        </button>
+        </Button>
       </div>
     </form>
   );
