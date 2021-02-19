@@ -83,4 +83,12 @@ textarea{
   height: 100px;
 }
 
+.submit-btn{
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 6px;
+  width: 100px;
+  background-color: #81B29A;
+}
+
 
