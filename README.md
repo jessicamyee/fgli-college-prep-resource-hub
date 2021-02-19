@@ -96,7 +96,7 @@ Visitors will be able to select resources based on specific categories. They wil
 |February 16| Project Approval | Complete
 |February 17| Core Application Structure (JS, CSS, etc.) & Pseudocode | Complete
 |February 18| Initial Clickable Model  | Complete
-|February 19| MVP | Incomplete
+|February 19| MVP | Complete
 |February 23| Presentations | Incomplete
 
 ## Timeframes
@@ -117,9 +117,9 @@ Visitors will be able to select resources based on specific categories. They wil
 | POST request: After submitting, add banner at top to confirm submission & include message about deleting or updating to email the "team" | H | 2hrs| 0.75hr | 0.75hr |
 | QA-ing and debugging for POST request | H | 2hrs| 1.5hrs | 1.5hrs |
 | Create group email for inquiries and add to footer and banner | M | 2hrs| 0.33hr | 0.33hr |
-| Text decoration: font style, font size, font colors | M | 3hrs|  |  |
-| Using Flexbox/GRID Pt 1: Elements resizing and alignment | H | 2hrs|  |  |
-| Using Flexbox/GRID Pt 2: Elements resizing and alignment | H | 2hrs|  |  |
+| Text decoration: font style, font size, font colors | M | 3hrs| 3hrs | 3hrs |
+| Using Flexbox/GRID Pt 1: Elements resizing and alignment | H | 2hrs| 2hrs | 2hrs |
+| Using Flexbox/GRID Pt 2: Elements resizing and alignment | H | 2hrs| 2hrs | 2hrs |
 | Implementing responsive design | H | 3hrs|  |  |
 | Final webapp QA | H | 1hr|  |  |
 | Total | H |34.5hrs |  |  |
