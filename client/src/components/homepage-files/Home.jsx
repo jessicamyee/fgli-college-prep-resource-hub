@@ -11,6 +11,8 @@ function Home() {
       </header>
       <CategoryNav />
       <div className="home-body">
+
+      {/* Tables for homepage   */}
       <div className="important-dates-sect">
         <h2 className="table-header">Financial Aid Deadlines</h2>
         <table id="table-1">
@@ -127,6 +129,7 @@ function Home() {
         </table>
       </div>
 
+      {/* Utilizing the CategoryBox component to list out the categories on the homepage   */}
       <div className="categorybox-set">
       <CategoryBox title={"SAT/ACT"} linkto={"/sat-act-resources"} />
       <CategoryBox
