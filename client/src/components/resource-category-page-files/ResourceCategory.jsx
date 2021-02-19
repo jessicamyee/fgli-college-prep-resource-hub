@@ -47,12 +47,11 @@ function ResourceCategory({ resources, setToggleFetch }) {
       </button>
 
       {/* Statement will be triggered when user successfully submits a resource to the page. */}
-      <p className="confirmation-statement">
-        {showConfirmationStatus
-          ? "Thank you for contributing! If you need to update/delete your resource, please email us at fgli-resource-hub@googlegroups.com."
-          : ""}
-      </p>
-
+      {showConfirmationStatus &&
+        <div className="confirmation-statement">
+          Thank you for contributing! If you need to update/delete your resource, please email us at fgli-resource-hub@googlegroups.com.
+        </div>
+      }
       {/* Filters through entire data table to only populate data from the selected category */}
       <div className="resource-list-container">
         {filteredResources.map((filteredResource) => (

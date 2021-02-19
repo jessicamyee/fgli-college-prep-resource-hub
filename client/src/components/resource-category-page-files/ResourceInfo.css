@@ -97,10 +97,13 @@ textarea{
 }
 
 .confirmation-statement{
-  margin: 15px 50px;
-  color: #3CB043;
+  margin: 30px 50px;
+  padding: 10px;
+  color: #000000;
   font-weight: bold;
   font-size: 18px;
+  background-color: #3cb0445d;
+  border-radius: 6px;
 }
 
 
