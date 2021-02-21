@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 import { baseURL, config } from "../../services";
 import "./ResourceInfo.css";
@@ -7,7 +7,39 @@ import Button from "react-bootstrap/Button";
 function Form({ setToggleFetch, category, setShowConfirmationStatus }) {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
-  const [link, setLink] = useState("https://");
+  const [link, setLink] = useState("");
+  const [errorMessage, setErrorMessage] = useState(null);
+  const [disable, setDisabled] = useState(true);
+  const [showError, setShowError] = useState(false);
+
+  const handleFormValidation = () => {
+    if (title === "") {
+      setErrorMessage("Title cannot be blank");
+      return true;
+    } else if (description === "") {
+      setErrorMessage("Description cannot be blank");
+      return true;
+    } else if (link === "") {
+      setErrorMessage("Link cannot be blank");
+      return true;
+    } else if (!link.includes("https://")) {
+      setErrorMessage("Link must start with https://");
+      return true;
+    } else {
+      setErrorMessage(null);
+      return false;
+    }
+  }
+
+  useEffect(() => {
+    if (!showError) {
+      setShowError(true);
+      return;
+    }
+
+
+    setDisabled(handleFormValidation())
+  }, [title, description, link])
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -22,7 +54,9 @@ function Form({ setToggleFetch, category, setShowConfirmationStatus }) {
     setShowConfirmationStatus(true);
     setTitle("");
     setDescription("");
-    setLink("https://");
+    setLink("");
+    setErrorMessage(null);
+    setShowError(false);
   };
 
   return (
@@ -61,12 +95,14 @@ function Form({ setToggleFetch, category, setShowConfirmationStatus }) {
           id="link"
           type="text"
           value={link}
+          placeholder="https://"
           onChange={(e) => setLink(e.target.value)}
         />
       </div>
 
       <div>
-        <Button className="submit-btn" variant="success" onClick={handleSubmit}>
+        {showError && errorMessage && <p id="form-error-message">{errorMessage}</p>}
+        <Button className="submit-btn" variant="success" onClick={handleSubmit} disabled={disable}>
           Add
         </Button>
       </div>
