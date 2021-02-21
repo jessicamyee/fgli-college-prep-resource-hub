@@ -27,9 +27,7 @@ function categoryUrlToTitle(categoryUrl) {
 //Function that populates the Category page when you select a category
 function ResourceCategory({ resources, setToggleFetch }) {
   const params = useParams();
-
   const [showConfirmationStatus, setShowConfirmationStatus] = useState(false);
-
   const filteredResources = resources.filter((resource) => {
     return resource.fields.category === categoryUrlToTitle(params.category);
   });
