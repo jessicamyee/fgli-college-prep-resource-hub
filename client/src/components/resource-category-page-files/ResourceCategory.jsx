@@ -32,12 +32,14 @@ function ResourceCategory({ resources, setToggleFetch }) {
     return resource.fields.category === categoryUrlToTitle(params.category);
   });
 
-
   const searchFilteredResources = filteredResources.filter((resource) => {
-    return resource.fields.description.toLowerCase().includes(searchString.toLowerCase());
-  })
+    return resource.fields.description
+      .toLowerCase()
+      .includes(searchString.toLowerCase());
+  });
 
-  const displayResources = searchString === "" ? filteredResources : searchFilteredResources
+  const displayResources =
+    searchString === "" ? filteredResources : searchFilteredResources;
 
   return (
     <div>
@@ -53,7 +55,11 @@ function ResourceCategory({ resources, setToggleFetch }) {
 
       {/* Search section of category page */}
       <div>
-        Search: <input className="search-input" onChange={e => setSearchString(e.target.value)} />
+        Search:{" "}
+        <input
+          className="search-input"
+          onChange={(e) => setSearchString(e.target.value)}
+        />
       </div>
 
       {/* Statement will be triggered when user successfully submits a resource to the page. */}
@@ -65,11 +71,14 @@ function ResourceCategory({ resources, setToggleFetch }) {
       )}
       {/* Filters through entire data table to only populate data from the selected category */}
       <div className="resource-list-container">
-        {(displayResources.length === 0) &&
-          <div>
-            No resources!
-          </div>  
-        }
+        {displayResources.length === 0 && (
+          <div className="no-search-results">
+            <div>
+              Sorry, no results found. We're working hard to add more resources.
+            </div>
+            <div>Thank you for your patience!</div>
+          </div>
+        )}
         {displayResources.map((filteredResource) => (
           <ResourceCategoryDetails
             key={filteredResource.id}
@@ -79,7 +88,6 @@ function ResourceCategory({ resources, setToggleFetch }) {
           />
         ))}
       </div>
-
 
       {/* Form to submit a new resource to the page */}
       <div id="form-location">

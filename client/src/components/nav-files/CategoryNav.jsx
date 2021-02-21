@@ -9,7 +9,7 @@ function CategoryNav() {
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Nav>
-          <NavDropdown title="Resource Categories">
+          <NavDropdown id="resource-categories-title" title="Resource Categories">
             <NavDropdown.Item href="/sat-act-resources">SAT/ACT</NavDropdown.Item>
             <NavDropdown.Item href="/summer-programs-extracurriculars">
             Summer Programs/Extracurriculars

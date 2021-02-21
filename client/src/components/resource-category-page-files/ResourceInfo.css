@@ -22,6 +22,7 @@
   letter-spacing: 3px;
   padding: 20px;
   border-radius: 10px;
+  font-family: "Big Shoulders Inline Text", cursive;
 }
 
 .contribute-btn{
@@ -34,6 +35,14 @@
 .search-input{
   margin: 20px;
   max-width: 400px;
+}
+
+.no-search-results{
+  font-size: 20px;
+  margin: 40px;
+  padding: 20px;
+  background-color: rgba(230, 117, 117, 0.249);
+  border-radius: 6px;
 }
 
 .resource-list-container{
@@ -56,6 +65,8 @@
   font-size: 20px;
   letter-spacing: 2px;
   margin: 0px 5px 15px;
+  font-family: "Big Shoulders Inline Text", cursive;
+
 }
 
 .resource-description{

@@ -1,15 +1,13 @@
-import { useState } from "react"; 
+import { useState } from "react";
 import axios from "axios";
 import { baseURL, config } from "../../services";
 import "./ResourceInfo.css";
-import Button from 'react-bootstrap/Button';
+import Button from "react-bootstrap/Button";
 
 function Form({ setToggleFetch, category, setShowConfirmationStatus }) {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [link, setLink] = useState("https://");
-
-  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -38,7 +36,7 @@ function Form({ setToggleFetch, category, setShowConfirmationStatus }) {
           type="text"
           value={title}
           placeholder="(Limit: 25 characters)"
-          maxLength="150"
+          maxLength="25"
           onChange={(e) => setTitle(e.target.value)}
         />
       </div>
