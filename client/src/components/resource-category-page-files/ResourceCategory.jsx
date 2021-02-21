@@ -4,9 +4,9 @@ import Form from "./Form";
 import CategoryNav from "../nav-files/CategoryNav";
 import { useState } from "react";
 import "./ResourceInfo.css";
-import Button from 'react-bootstrap/Button';
+import Button from "react-bootstrap/Button";
 
-//Independent function that links the Airtable category name to this app's category name  
+//Independent function that links the Airtable category name to this app's category name
 function categoryUrlToTitle(categoryUrl) {
   switch (categoryUrl) {
     case "sat-act-resources":
@@ -23,15 +23,21 @@ function categoryUrlToTitle(categoryUrl) {
   }
 }
 
-
 //Function that populates the Category page when you select a category
 function ResourceCategory({ resources, setToggleFetch }) {
   const params = useParams();
   const [showConfirmationStatus, setShowConfirmationStatus] = useState(false);
+  const [searchString, setSearchString] = useState("");
   const filteredResources = resources.filter((resource) => {
     return resource.fields.category === categoryUrlToTitle(params.category);
   });
-  
+
+
+  const searchFilteredResources = filteredResources.filter((resource) => {
+    return resource.fields.description.toLowerCase().includes(searchString.toLowerCase());
+  })
+
+  const displayResources = searchString === "" ? filteredResources : searchFilteredResources
 
   return (
     <div>
@@ -45,15 +51,26 @@ function ResourceCategory({ resources, setToggleFetch }) {
         <a href="#form-location">Contribute</a>
       </Button>
 
+      {/* Search section of category page */}
+      <div>
+        Search: <input className="search-input" onChange={e => setSearchString(e.target.value)} />
+      </div>
+
       {/* Statement will be triggered when user successfully submits a resource to the page. */}
-      {showConfirmationStatus &&
+      {showConfirmationStatus && (
         <div className="confirmation-statement">
-          Thank you for contributing! If you need to update/delete your resource, please email us at fgli-resource-hub@googlegroups.com.
+          Thank you for contributing! If you need to update/delete your
+          resource, please email us at fgli-resource-hub@googlegroups.com.
         </div>
-      }
+      )}
       {/* Filters through entire data table to only populate data from the selected category */}
       <div className="resource-list-container">
-        {filteredResources.map((filteredResource) => (
+        {(displayResources.length === 0) &&
+          <div>
+            No resources!
+          </div>  
+        }
+        {displayResources.map((filteredResource) => (
           <ResourceCategoryDetails
             key={filteredResource.id}
             title={filteredResource.fields.title}
@@ -62,7 +79,8 @@ function ResourceCategory({ resources, setToggleFetch }) {
           />
         ))}
       </div>
-      
+
+
       {/* Form to submit a new resource to the page */}
       <div id="form-location">
         <Form
@@ -74,7 +92,5 @@ function ResourceCategory({ resources, setToggleFetch }) {
     </div>
   );
 }
-
-
 
 export default ResourceCategory;

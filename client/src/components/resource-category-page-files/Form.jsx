@@ -37,7 +37,8 @@ function Form({ setToggleFetch, category, setShowConfirmationStatus }) {
           id="title"
           type="text"
           value={title}
-          placeholder="Title"
+          placeholder="(Limit: 25 characters)"
+          maxLength="150"
           onChange={(e) => setTitle(e.target.value)}
         />
       </div>
