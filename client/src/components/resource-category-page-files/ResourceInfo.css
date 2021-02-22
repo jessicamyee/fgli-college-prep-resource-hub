@@ -76,6 +76,7 @@
 .resource-link{
   border-radius: 6px;
   padding: 5px;
+  margin: 15px;
 }
 
 form {

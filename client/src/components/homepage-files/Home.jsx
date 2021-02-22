@@ -2,7 +2,7 @@ import CategoryBox from "./CategoryBox";
 import CategoryNav from "../nav-files/CategoryNav";
 import "./HomePage.css";
 import Table from "react-bootstrap/Table";
-import Button from 'react-bootstrap/Button';
+import Button from "react-bootstrap/Button";
 
 function Home() {
   return (
@@ -62,13 +62,12 @@ function Home() {
                 <td>General College Fair</td>
                 <td>Feb. 28 @ 1:00pm - 7:00pm EDT</td>
                 <td>
-                  <Button variant="outline-info">
-                    <a className="btn-text"
-                      target="_blank"
-                      href="https://virtualcollegefairs.org/events/42/exhibitors"
-                    >
-                      Register Here
-                    </a>
+                  <Button
+                    variant="outline-info"
+                    target="_blank"
+                    href="https://virtualcollegefairs.org/events/42/exhibitors"
+                  >
+                    Register Here
                   </Button>
                 </td>
               </tr>
@@ -77,13 +76,12 @@ function Home() {
                 <td>STEM College Fair</td>
                 <td>March 7 @ 1:00pm - 5:00pm EDT</td>
                 <td>
-                  <Button variant="outline-info">
-                    <a className="btn-text"
-                      target="_blank"
-                      href="https://virtualcollegefairs.org/events/80/exhibitors"
-                    >
-                      Register Here
-                    </a>
+                  <Button
+                    variant="outline-info"
+                    target="_blank"
+                    href="https://virtualcollegefairs.org/events/80/exhibitors"
+                  >
+                    Register Here
                   </Button>
                 </td>
               </tr>
@@ -92,13 +90,12 @@ function Home() {
                 <td>Performing & Visual Arts College Fair</td>
                 <td>March 16 @ 4:00pm - 8:00pm EDT</td>
                 <td>
-                  <Button variant="outline-info">
-                    <a className="btn-text"
-                      target="_blank"
-                      href="https://virtualcollegefairs.org/events/83/exhibitors"
-                    >
-                      Register Here
-                    </a>
+                  <Button
+                    variant="outline-info"
+                    target="_blank"
+                    href="https://virtualcollegefairs.org/events/83/exhibitors"
+                  >
+                    Register Here
                   </Button>
                 </td>
               </tr>
@@ -107,13 +104,12 @@ function Home() {
                 <td>Western U.S. College Fair</td>
                 <td>April 10 @ 3:00pm - 7:00pm EDT</td>
                 <td>
-                  <Button variant="outline-info">
-                    <a className="btn-text"
-                      target="_blank"
-                      href="https://virtualcollegefairs.org/events/84/exhibitors"
-                    >
-                      Register Here
-                    </a>
+                  <Button
+                    variant="outline-info"
+                    target="_blank"
+                    href="https://virtualcollegefairs.org/events/84/exhibitors"
+                  >
+                    Register Here
                   </Button>
                 </td>
               </tr>
@@ -122,13 +118,12 @@ function Home() {
                 <td>Southeastern U.S. College Fair</td>
                 <td>April 20 @ 3:00pm - 7:00pm EDT</td>
                 <td>
-                  <Button variant="outline-info">
-                    <a className="btn-text"
-                      target="_blank"
-                      href="https://virtualcollegefairs.org/events/85/exhibitors"
-                    >
-                      Register Here
-                    </a>
+                  <Button
+                    variant="outline-info"
+                    target="_blank"
+                    href="https://virtualcollegefairs.org/events/85/exhibitors"
+                  >
+                    Register Here
                   </Button>
                 </td>
               </tr>

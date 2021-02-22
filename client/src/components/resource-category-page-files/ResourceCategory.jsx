@@ -49,9 +49,15 @@ function ResourceCategory({ resources, setToggleFetch }) {
         </h1>
       </header>
       <CategoryNav />
-      <Button className="contribute-btn" variant="outline-success">
-        <a href="#form-location">Contribute</a>
-      </Button>
+
+      <Button
+          className="contribute-btn"
+          variant="outline-success"
+          target="_blank"
+          href="#form-location"
+        >
+          Contribute
+        </Button>
 
       {/* Search section of category page */}
       <div>
