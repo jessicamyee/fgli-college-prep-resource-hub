@@ -13,10 +13,13 @@ function Home() {
           Supporting first-generation, low-income high school students
         </h5>
       </header>
+
       <CategoryNav />
+
       <div className="home-body">
         {/* Tables for homepage   */}
         <div className="important-dates-sect">
+          {/* Table 1 */}
           <h2 className="table-header">Financial Aid Deadlines</h2>
           <Table striped bordered hover={true} size="md">
             <thead>
@@ -48,6 +51,7 @@ function Home() {
             </tbody>
           </Table>
 
+          {/* Table 2 */}
           <h2 className="table-header">Virtual College Fairs</h2>
           <Table striped bordered hover size="md">
             <thead>

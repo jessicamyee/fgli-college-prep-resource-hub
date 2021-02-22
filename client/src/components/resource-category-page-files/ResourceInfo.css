@@ -1,4 +1,6 @@
-.category-header-section{
+/* CSS for category page header section */
+
+.category-header-section {
   background-image: url("../../banner-images/category-banner.jpeg");
   /* image source: https://unsplash.com/photos/9BoqXzEeQqM */
   height: 350px;
@@ -7,7 +9,7 @@
   background-size: cover;
   position: relative;
   opacity: 0.9;
-  filter:brightness(0.9);
+  filter: brightness(0.9);
 }
 
 .category-header {
@@ -17,7 +19,7 @@
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #3d405bd0;
   letter-spacing: 3px;
   padding: 20px;
@@ -25,19 +27,20 @@
   font-family: "Big Shoulders Inline Text", cursive;
 }
 
-.contribute-btn{
+/* CSS for Contribute button and search bar/results */
+.contribute-btn {
   width: 100px;
   border-radius: 6px;
   margin-top: 20px;
-  background-color: #81B29A;
+  background-color: #81b29a;
 }
 
-.search-input{
+.search-input {
   margin: 20px;
   max-width: 400px;
 }
 
-.no-search-results{
+.no-search-results {
   font-size: 20px;
   margin: 40px;
   padding: 20px;
@@ -45,13 +48,14 @@
   border-radius: 6px;
 }
 
-.resource-list-container{
+/* CSS for list of resources section */
+.resource-list-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.resource-set{
+.resource-set {
   flex: 0 0 33%;
   height: 250px;
   margin: 20px;
@@ -59,26 +63,25 @@
   padding: 35px 10px;
   border-style: solid;
   border-width: 2px;
-  border-color: #E07A5F;
+  border-color: #e07a5f;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #f2cc8f48;
   position: relative;
 }
 
-.resource-title{
+.resource-title {
   font-weight: bold;
   font-size: 20px;
   letter-spacing: 2px;
   margin: 0px 5px 15px;
   font-family: "Big Shoulders Inline Text", cursive;
-
 }
 
-.resource-description{
+.resource-description {
   margin: 0px 5px;
 }
 
-.resource-link{
+.resource-link {
   border-radius: 6px;
   padding: 5px;
   margin-bottom: 15px;
@@ -88,50 +91,54 @@
   transform: translateX(-50%);
 }
 
+/* CSS for the form */
 form {
   margin: 20px 0px 0px;
   padding: 20px;
   background-color: #3d405bd0;
 }
 
-.form-title, .form-labels{
-  color: #FFFFFF;
+.form-title,
+.form-labels {
+  color: #ffffff;
   font-family: "Big Shoulders Inline Text", cursive;
   font-weight: bold;
   letter-spacing: 2px;
 }
 
-.form-labels{
+.form-labels {
   margin-top: 15px;
 }
 
-input, textarea {
+input,
+textarea {
   width: 500px;
   border-radius: 6px;
 }
 
-textarea{
+textarea {
   height: 100px;
 }
 
-.submit-btn{
+.submit-btn {
   margin-top: 20px;
   padding: 5px;
   border-radius: 6px;
   width: 100px;
-  background-color: #81B29A;
+  background-color: #81b29a;
 }
 
-#form-error-message{
+/* CSS for form error and form confirmation messages */
+#form-error-message {
   margin-top: 40px;
-  background-color: #FFFF00;
+  background-color: #ffff00;
   padding: 10px;
   border-radius: 10px;
   font-size: 15px;
   font-weight: bold;
 }
 
-.confirmation-statement{
+.confirmation-statement {
   margin: 30px 50px;
   padding: 10px;
   color: #000000;
@@ -141,12 +148,11 @@ textarea{
   border-radius: 6px;
 }
 
-
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
   .category-header {
     font-size: 30px;
   }
-  .resource-set{
+  .resource-set {
     min-height: 300px;
     margin: 20px auto;
     min-width: 400px;
@@ -155,27 +161,26 @@ textarea{
     margin: 20px 0px 0px;
     padding: 20px;
   }
-  
-  
-  input, textarea {
+
+  input,
+  textarea {
     width: 350px;
     border-radius: 6px;
   }
 }
 
-@media screen and (max-width: 400px){
-
-  .category-header-section{
+@media screen and (max-width: 400px) {
+  .category-header-section {
     min-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     opacity: 0.9;
-    filter:brightness(0.9);
+    filter: brightness(0.9);
   }
 
-  .resource-set{
+  .resource-set {
     min-height: 400px;
     margin: 20px auto;
     min-width: 300px;
@@ -185,15 +190,14 @@ textarea{
     margin: 20px 0px 0px;
     padding: 20px;
   }
-  
-  
-  input, textarea {
+
+  input,
+  textarea {
     width: 250px;
     border-radius: 6px;
   }
 
-  
-  .submit-btn{
+  .submit-btn {
     width: 80px;
   }
 }

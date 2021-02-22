@@ -2,8 +2,8 @@ footer {
   background-color: #000000;
 }
 
-.footer-contact{
-  color: #F4F1DE;
+.footer-contact {
+  color: #f4f1de;
   padding: 30px 0px 0px;
   font-size: 20px;
 }
@@ -12,8 +12,8 @@ footer {
   padding: 0px 0px 20px;
 }
 
-@media screen and (max-width: 480px){
-  .footer-contact{
+@media screen and (max-width: 480px) {
+  .footer-contact {
     font-size: 15px;
   }
 }

@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
 import axios from "axios";
 import { baseURL, config } from "../../services";
+import { useState, useEffect } from "react";
 import "./ResourceInfo.css";
 import Button from "react-bootstrap/Button";
 
@@ -29,17 +29,16 @@ function Form({ setToggleFetch, category, setShowConfirmationStatus }) {
       setErrorMessage(null);
       return false;
     }
-  }
+  };
 
+  // To show error message block if there is an error in form entry and will enable submit once all conditions are cleared
   useEffect(() => {
     if (!showError) {
       setShowError(true);
       return;
     }
-
-
-    setDisabled(handleFormValidation())
-  }, [title, description, link])
+    setDisabled(handleFormValidation());
+  }, [title, description, link]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -101,8 +100,15 @@ function Form({ setToggleFetch, category, setShowConfirmationStatus }) {
       </div>
 
       <div>
-        {showError && errorMessage && <p id="form-error-message">{errorMessage}</p>}
-        <Button className="submit-btn" variant="success" onClick={handleSubmit} disabled={disable}>
+        {showError && errorMessage && (
+          <p id="form-error-message">{errorMessage}</p>
+        )}
+        <Button
+          className="submit-btn"
+          variant="success"
+          onClick={handleSubmit}
+          disabled={disable}
+        >
           Add
         </Button>
       </div>

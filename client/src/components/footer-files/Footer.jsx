@@ -1,10 +1,16 @@
-import "./Footer.css"; 
+import "./Footer.css";
 
-function Footer() { 
+function Footer() {
   return (
     <footer>
-      <p className="footer-contact">Contact us: fgli-resource-hub@googlegroups.com</p>
-      <a target="_blank" href="https://github.com/jessicamyee" className="fa fa-github"></a>
+      <p className="footer-contact">
+        Contact us: fgli-resource-hub@googlegroups.com
+      </p>
+      <a
+        target="_blank"
+        href="https://github.com/jessicamyee"
+        className="fa fa-github"
+      ></a>
     </footer>
   );
 }
