@@ -118,11 +118,11 @@ Visitors will be able to select resources based on specific categories. They wil
 | QA-ing and debugging for POST request | H | 2hrs| 1.5hrs | 1.5hrs |
 | Create group email for inquiries and add to footer and banner | M | 2hrs| 0.33hr | 0.33hr |
 | Text decoration: font style, font size, font colors | M | 3hrs| 3hrs | 3hrs |
-| Using Flexbox/GRID Pt 1: Elements resizing and alignment | H | 2hrs| 2hrs | 2hrs |
-| Using Flexbox/GRID Pt 2: Elements resizing and alignment | H | 2hrs| 2hrs | 2hrs |
-| Implementing responsive design | H | 3hrs|  |  |
+| Using Flexbox/GRID Pt 1: Elements resizing and alignment | H | 2hrs| 6hrs | 6hrs |
+| Using Flexbox/GRID Pt 2: Elements resizing and alignment | H | 2hrs| 6hrs | 6hrs |
+| Implementing responsive design | H | 3hrs| 5hrs | 5hrs |
 | Final webapp QA | H | 1hr|  |  |
-| Total | H |34.5hrs |  |  |
+| Total | H |34.5hrs | 29.34hrs | 29.34hrs |
 
 ## SWOT Analysis
 
