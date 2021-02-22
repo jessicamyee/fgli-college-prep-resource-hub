@@ -53,7 +53,6 @@ function ResourceCategory({ resources, setToggleFetch }) {
       <Button
           className="contribute-btn"
           variant="outline-success"
-          target="_blank"
           href="#form-location"
         >
           Contribute
