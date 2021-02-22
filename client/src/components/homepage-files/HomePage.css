@@ -131,3 +131,21 @@ td {
     margin: 10px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  #homepage-header {
+    font-size: 25px;
+  }
+
+  #homepage-subheading {
+    font-size: 13px;
+  }
+
+  .category-box {
+    padding: 15px;
+  }
+
+  .resources-btn {
+    margin: 5px
+  }
+}
