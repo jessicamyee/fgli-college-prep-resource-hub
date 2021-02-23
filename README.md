@@ -121,8 +121,8 @@ Visitors will be able to select resources based on specific categories. They wil
 | Using Flexbox/GRID Pt 1: Elements resizing and alignment | H | 2hrs| 6hrs | 6hrs |
 | Using Flexbox/GRID Pt 2: Elements resizing and alignment | H | 2hrs| 6hrs | 6hrs |
 | Implementing responsive design | H | 3hrs| 5hrs | 5hrs |
-| Final webapp QA | H | 1hr|  |  |
-| Total | H |34.5hrs | 29.34hrs | 29.34hrs |
+| Final webapp QA | H | 1hr| 1hr | 1hr |
+| Total | H |34.5hrs | 30.34hrs | 30.34hrs |
 
 ## SWOT Analysis
 
